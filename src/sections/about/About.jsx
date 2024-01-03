@@ -9,6 +9,7 @@ import gmail from "../../images/gmail.svg"
 import leetcode from "../../images/leetcode.svg"
 import { Link } from 'react-router-dom';
 import Tilt from 'react-parallax-tilt';
+import mainPhoto from '../../images/MohdArsalan.jpg'
 
 const About = () => {
 
@@ -60,7 +61,7 @@ const About = () => {
       </div>
       <div>
       <Tilt>
-        <img class="imgarsalan" src="https://images.unsplash.com/photo-1666005487638-61f45819c975?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" />
+        <img class="imgarsalan" src={mainPhoto} />
       </Tilt>
       </div>
     </div>
