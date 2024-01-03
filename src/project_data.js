@@ -5,7 +5,7 @@ export const data=[
         questions and receive answers from other users.`, 
         stack : ["Javacript", "ReactJS","MySQL", "NodeJS", "ExpressJS", "Bootstrap", "Git", "Shell"],
         link:"https://github.com/simplyarsa",
-        img:"https://images.pexels.com/photos/1815257/pexels-photo-1815257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        img: "./images/connectjmi.png"
     },
     {
         title:"Movie Blog App",
@@ -13,7 +13,7 @@ export const data=[
         for others to see`,
         stack : ["Flutter", "Dart", "Firebase"],
         link:"https://github.com/simplyarsa",
-        img:"https://images.pexels.com/photos/1815257/pexels-photo-1815257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        img:"./images/movieblog.png"
     },
     {
         title:"Instagram Bot",
@@ -22,7 +22,7 @@ export const data=[
         `,
         stack : ["NodeJS", "Render", "Git"],
         link:"https://github.com/simplyarsa",
-        img:"https://images.pexels.com/photos/1815257/pexels-photo-1815257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        img:"./images/igbot.png"
     },
     {
         title:"Paisa Planner (Hackathon Group Project)",
@@ -44,7 +44,7 @@ export const data=[
         desc: `2048 game created in vanilla Javascript. Works on both mobile and pc.`,
         stack : ["Flutter", "Dart", "Firebase"],
         link:"https://github.com/simplyarsa",
-        img:"https://images.pexels.com/photos/1815257/pexels-photo-1815257.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260"
+        img:"./images/2048.png"
     },
 
 ];

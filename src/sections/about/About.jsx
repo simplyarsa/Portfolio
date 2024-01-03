@@ -54,7 +54,7 @@ const About = () => {
         <div className='socials'>
           <a href='https://www.linkedin.com/in/arsalan-rizvi-3944b2236/' ><img src={linkedin} className='logoimg' /></a>
           <a href='https://github.com/simplyarsa' ><img src={github} className='logoimg' /></a>
-          <a href='https://leetcode.com/simplyarsa15/k' ><img src={leetcode} className='logoimg' /></a>
+          <a href='https://leetcode.com/simplyarsa15' ><img src={leetcode} className='logoimg' /></a>
           <a href="mailto:simplyarsa15@gmail.com" ><img src={gmail} className='logoimg' /></a>
           <a href='https://www.instagram.com/arsalannn_15/' ><img src={instagram} className='logoimg' /></a>
         </div>
