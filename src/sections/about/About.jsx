@@ -1,15 +1,14 @@
 import React, { useRef } from 'react'
 import './about.css'
-// import VanillaTilt from 'vanilla-tilt';
-// import Tilt from 'react-tilt'
 // import { FaDiscord, FaGithub } from 'react-icons/fa';
 // import { AiFillGithub, AiFillLinkedin } from 'react-icons/ai';
 import linkedin from "../../images/linkedin.svg"
 import github from "../../images/github.svg"
 import instagram from "../../images/instagram.svg"
 import gmail from "../../images/gmail.svg"
-import discord from "../../images/discord.svg"
+import leetcode from "../../images/leetcode.svg"
 import { Link } from 'react-router-dom';
+import Tilt from 'react-parallax-tilt';
 
 const About = () => {
 
@@ -43,24 +42,26 @@ const About = () => {
 
   return (
     <div className='details'>
+  
       <div className='text'>
         Hi, I am <h1 className='about-main' onMouseOver={handleMouseover} data-value="ARSALAN">ARSALAN</h1>
         <div className='about-text'>
-          <p>Developer</p>
-          <p>Developer</p>
-          <p>Developer</p>
+          <p>a 3rd-year undergraduate student pursuing B. Tech at Jamia Millia Islamia, New Delhi, India.</p>
+          <p>I am a full stack web developer (MERN Stack) with strong problem-solving skills and proficiency in Data Structures and Algorithms (DSA).</p>
           {/* &ensp; random text <br /> */}
         </div>
         <div className='socials'>
-          <a href='https://reactrouter.com/en/main/components/link' ><img src={linkedin} className='logoimg' /></a>
-          <a href='https://reactrouter.com/en/main/components/link' ><img src={github} className='logoimg' /></a>
-          <a href='https://reactrouter.com/en/main/components/link' ><img src={discord} className='logoimg' /></a>
-          <a href='https://reactrouter.com/en/main/components/link' ><img src={gmail} className='logoimg' /></a>
-          <a href='https://reactrouter.com/en/main/components/link' ><img src={instagram} className='logoimg' /></a>
+          <a href='https://www.linkedin.com/in/arsalan-rizvi-3944b2236/' ><img src={linkedin} className='logoimg' /></a>
+          <a href='https://github.com/simplyarsa' ><img src={github} className='logoimg' /></a>
+          <a href='https://leetcode.com/simplyarsa15/k' ><img src={leetcode} className='logoimg' /></a>
+          <a href="mailto:simplyarsa15@gmail.com" ><img src={gmail} className='logoimg' /></a>
+          <a href='https://www.instagram.com/arsalannn_15/' ><img src={instagram} className='logoimg' /></a>
         </div>
       </div>
       <div>
+      <Tilt>
         <img class="imgarsalan" src="https://images.unsplash.com/photo-1666005487638-61f45819c975?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=987&q=80" />
+      </Tilt>
       </div>
     </div>
   )

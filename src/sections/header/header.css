@@ -1,4 +1,6 @@
 .header {
+  position: sticky; 
+  top: 0;
     width: 100%;
     align-items: center;
     justify-content: center;
@@ -7,6 +9,11 @@
     color: white;
     display: flex;
     z-index: 5;
+    /* add blur */
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 0 0 10px 10px;
+
   }
   
   .header a {
@@ -37,12 +44,19 @@
     background-color: dodgerblue;
     color: white;
   }
+
+  .logo{
+    width: 50px;
+    border-radius: 50px;
+  }
   
-  @media screen and (max-width: 500px) {
+  @media screen and (max-width: 768px) {
     .header {
       width: 100%;
       padding: 0.5rem;
+      display: block;
     }
+    
     .header a {
       width: 100%;
       float: none;
@@ -55,11 +69,10 @@
       margin-left: 0px;
       margin-right: 0px;
     }
+    .logo-img{
+      position: relative;
+      left: 0;
+      width: 100%;
+    }
 
-  }
-
-  .logo{
-    width: 50px;
-    /* margin-right: 100px; */
-    border-radius: 50px;
   }

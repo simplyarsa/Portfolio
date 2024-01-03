@@ -73,6 +73,12 @@ h1 {
         width: 100%;
         font-size: 3em;
     }
+    .about-text{
+        text-align: left;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 1.2em;
+    }
 
     .text {
         margin: 20px;

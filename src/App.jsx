@@ -1,5 +1,6 @@
 import { useState, useEffect, useRef } from 'react';
 import './App.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
 import About from './sections/about/About';
 import Contact from './sections/contact/Contact';
 import Header from './sections/header/Header';
@@ -8,6 +9,7 @@ import Skills from './sections/skills/Skills';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Timeline from './sections/work/Timeline';
+
 
 function App() {
 
