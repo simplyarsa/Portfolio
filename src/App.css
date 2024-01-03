@@ -1,0 +1,64 @@
+html {
+    scroll-behavior: smooth;
+  }
+  body {
+    margin:0;
+    font-family: 'Space Mono', monospace;
+    background-color: #111111;
+    /* background: url("https://images.squarespace-cdn.com/content/v1/58b3cae5d1758e0132a008c6/a016e5c8-56c8-4488-93ab-dfe88709405d/Anno-Mutationem-Review-Header.jpg?format=1000w");  */
+    /* background: url("https://cutewallpaper.org/25/anime-city-night-live-wallpaper/1010629492.jpg"); */
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    background-attachment: fixed;
+    background-position: 50% 50%;
+    /* background-size: 200%; */
+    width: 100vw;
+    color: white; 
+    
+  }
+  
+  @keyframes rotate {
+    from {
+      rotate: 0deg;
+    }
+    
+    50% {
+      scale: 1 1.2;
+    }
+    
+    to {
+      rotate: 360deg;
+    }
+  }
+  
+  #blob {
+    z-index: -1;
+    background-color: white;
+    height: 34vmax;
+    aspect-ratio: 1;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+    border-radius: 50%;
+    background: linear-gradient(to right, aquamarine, mediumpurple);
+    animation: rotate 20s infinite;
+    opacity: 0.8;
+    filter: blur(200px);
+  }
+  
+  #blur {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    backdrop-filter: blur(12vmax);
+  }
+  
+  .heading{
+    font-size: 5vmax;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 10vmax;
+    margin-bottom: 5vmax;
+  }
