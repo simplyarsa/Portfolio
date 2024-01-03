@@ -12,7 +12,7 @@ const Projects = () => {
                     <h1>{project.title}</h1>
                     <p >{project.desc}</p>
                     <div className='project-img' >
-                        <a href={project.link} target='_blank' >
+                        <a href={project.link} target='_blank' rel='noreferrer'  >
                             <img src={project.img} />
                         </a>
                     </div>
