@@ -9,20 +9,27 @@
     border-radius: 1rem;
     box-shadow: 0 0 10px rgba(0,0,0,0.2);
     transition: all 0.3s ease-in-out;
-    cursor: pointer;
     margin-left: 10px;
     opacity: 0.7;
 }
 
 .project-box:hover{
     opacity: 1;
+    h1{
+        text-decoration: underline;
+    }
+    animation: moveleft 0.7s ease-in ;
+    animation-fill-mode: forwards;
     .project-img{
+        
         display: block;
         animation: fade-in 1.2s ease-in-out;
     }
     .project-text{
+        
         display: flex;
-        animation: fade-in 1.2s ease-in-out;
+        animation: fade-in 1.5s ease-in-out;
+        
     }
 }
 
@@ -35,17 +42,27 @@
     }
 }
 
+@keyframes moveleft {
+    0% {
+
+    }
+    100% {
+        padding-left: 70px;
+    }
+}
+
 .project-img{
     position: absolute;
     right: 0;
-    border: 1px solid white;
-    width: 30vw;
-    height: 30vh;
+    top: 0;
+    /* border: 1px solid white; */
+    width: 40vw;
+    height: 40vh;
     object-fit: cover;
-    border-radius: 1rem;
     justify-content: center;
     display: none;
     z-index: 5;
+    border-radius: 1rem;
 }
 
 .project-img img{
@@ -67,6 +84,7 @@
     border-radius: 1rem;
     text-align: center;
 }
+
 
 
 @media screen and (max-width: 768px) {
@@ -94,6 +112,10 @@
         border-radius: 1rem;
     }
     .project-box:hover{
+        h1{
+            text-decoration: underline;
+        }
+        animation: none;
         .project-img{
             display: flex;
             animation: fade-in 1.2s ease-in-out;

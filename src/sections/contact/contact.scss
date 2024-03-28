@@ -140,6 +140,19 @@ body {
   flex-direction: row;
 }
 
+.contact-social-links{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.contact-social-links img{
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+  transition: 0.5s;
+}
+
 @media only screen and (max-width: 768px) {
   .contact-content{
     flex-direction: column;
@@ -167,7 +180,7 @@ body {
       display: flex;
       flex-direction: row;
       justify-content: space-evenly;
-      width: 10vw;
+      // width: 10vw;
       margin: 0 auto;
     }
     
@@ -180,16 +193,3 @@ body {
   }
 }
 
-.contact-social-links{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  width: 100%;
-  margin-left: -20px;
-}
-.contact-social-links img{
-  width: 30px;
-  height: 30px;
-  margin: 10px;
-  transition: 0.5s;
-}

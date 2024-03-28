@@ -29,8 +29,7 @@ export default function Timeline() {
                 Google Developer Student Club - JMI Graphics Lead
                 <br />
                 <br />
-                <br />
-                <br />
+               
               </p>
             </MDBCardBody>
           </MDBCard>
@@ -44,9 +43,8 @@ export default function Timeline() {
                 <MDBIcon far icon="clock" /> Jul 2023-Aug 2023
               </p>
               <p className="mb-0">
-                Web Development Intern at NullClass
-                <br />
-                <br />
+                Web Developer Intern at NullClass
+               
                 <br />
                 <br />
               </p>
@@ -62,9 +60,8 @@ export default function Timeline() {
                 <MDBIcon far icon="clock" /> Jun 2023-Jul 2023
               </p>
               <p className="mb-0">
-                Web Development Intern at NoQs Digital Pvt. Ltd.
-                <br />
-                <br />
+                Web Developer Intern at NoQs Digital Pvt. Ltd.
+                
                 <br />
                 <br />
               </p>
@@ -80,9 +77,8 @@ export default function Timeline() {
                 <MDBIcon far icon="clock" /> Mar 2023
               </p>
               <p className="mb-0">
-                IEEE JMI Technical team Member
-                <br />
-                <br />
+                IEEE JMI Technical Team Member
+                
                 <br />
                 <br />
               </p>
@@ -99,8 +95,7 @@ export default function Timeline() {
               </p>
               <p className="mb-0">
                 Joined Jamia Millia Islamia
-                <br />
-                <br />
+                
                 <br />
                 <br />
               </p>

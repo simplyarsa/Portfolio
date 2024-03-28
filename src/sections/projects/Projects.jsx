@@ -12,7 +12,7 @@ const Projects = () => {
             <div>
                 {data.map((project => (
                     <div className='project-box' data-aos="slide-right">
-                        <h1>{project.title}</h1>
+                    <a href={project.link} target='_blank' rel='noreferrer' style={{textDecoration: 'none', color:'white'}} ><h1>{project.title}</h1></a>
                         <br></br>
                         <p >{project.desc}</p>
                         <div className='project-img' >

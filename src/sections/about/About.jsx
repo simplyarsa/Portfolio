@@ -10,6 +10,7 @@ import leetcode from "../../images/leetcode.svg"
 import { Link } from 'react-router-dom';
 import Tilt from 'react-parallax-tilt';
 import mainPhoto from '../../images/MohdArsalan.jpg'
+import arsa from '../../images/Arsa.jpg'
 
 const About = () => {
 
@@ -47,8 +48,9 @@ const About = () => {
       <div className='text'>
         Hi, I am <h1 className='about-main' onMouseOver={handleMouseover} data-value="ARSALAN">ARSALAN</h1>
         <div className='about-text'>
-          <p>a 3rd-year undergraduate student pursuing B. Tech at Jamia Millia Islamia, New Delhi, India.</p>
-          <p>I am a full stack web developer (MERN Stack) with strong problem-solving skills and proficiency in Data Structures and Algorithms (DSA).</p>
+          <p>DEVELOPER</p>
+          <p>CODER</p>
+          <p>SOLVER</p>
           {/* &ensp; random text <br /> */}
         </div>
         <div className='socials'>
@@ -61,7 +63,7 @@ const About = () => {
       </div>
       <div>
       <Tilt>
-        <img class="imgarsalan" src={mainPhoto} />
+        <img class="imgarsalan" src={arsa} />
       </Tilt>
       </div>
     </div>

@@ -24,6 +24,20 @@
     margin: 0;
 }
 
+.skills span{
+    font-size: 5rem;
+    /* font-family:    'Roboto', sans-serif; */
+    opacity: 0.5;
+}
+
+.skills span:hover{
+    font-size: 5rem;
+    font-style: italic;
+    opacity: 1;
+}
+
+
+
 @media screen and (max-width: 768px) {
     .skill-container{
         grid-template-columns: repeat(3, 1fr);
@@ -35,4 +49,15 @@
         padding: 10px;
         margin: 10px;
     }
+    .skills span{
+        font-size: 1.8rem;
+        opacity: 0.5;
+    }
+    .skills span:hover{
+        font-size: 1.8rem;
+        font-style: italic;
+        opacity: 1;
+    }
+
 }
+

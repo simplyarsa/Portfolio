@@ -5,9 +5,11 @@ html {
   body {
     margin:0;
     font-family: 'Space Mono', monospace;
-    background-color: #111111;
     /* background: url("https://images.squarespace-cdn.com/content/v1/58b3cae5d1758e0132a008c6/a016e5c8-56c8-4488-93ab-dfe88709405d/Anno-Mutationem-Review-Header.jpg?format=1000w");  */
-    /* background: url("https://cutewallpaper.org/25/anime-city-night-live-wallpaper/1010629492.jpg"); */
+  
+    background: #111111;
+    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/4k_Dissolve_Noise_Texture.png/1200px-4k_Dissolve_Noise_Texture.png");
+    background-blend-mode: overlay;
     background-position: center;
     /* background-repeat: no-repeat; */
     background-attachment: fixed;
@@ -15,8 +17,11 @@ html {
     /* background-size: 200%; */
     width: 100vw;
     color: white; 
-    
+    font-size: 1.2rem;
+    font-family: "Reddit Mono", monospace;
   }
+
+  
   
   @keyframes rotate {
     from {

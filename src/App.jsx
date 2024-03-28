@@ -9,6 +9,7 @@ import Skills from './sections/skills/Skills';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Timeline from './sections/work/Timeline';
+import Skills2 from './sections/skills/Skills2';
 
 
 function App() {
@@ -20,11 +21,11 @@ function App() {
 
   const blob = document.getElementById("blob");
 
-  window.addEventListener('scroll', ()=>{
-    let height=document.body.scrollHeight;
-    // document.body.style.backgroundSize=`${(100 + window.scrollY/5)}%`
-    document.body.style.backgroundSize=`${(200 - window.scrollY/25)}%`
-  })
+  // window.addEventListener('scroll', ()=>{
+  //   let height=document.body.scrollHeight;
+  //   // document.body.style.backgroundSize=`${(100 + window.scrollY/5)}%`
+  //   document.body.style.backgroundSize=`${(200 - window.scrollY/25)}%`
+  // })
 
   document.addEventListener('mousemove', async function(event) {
     const { pageX, pageY } = event;
@@ -45,7 +46,8 @@ function App() {
       <h2 id="experience" className='heading'>// Work-Experience</h2>       
       <Timeline />
       <h2 id="skills" className='heading'>// Skills</h2> 
-      <Skills /> 
+      {/* <Skills />  */}
+      <Skills2 />
       <h2 id="projects" className='heading'>// Projects</h2>
       <Projects />
       <Contact />  

@@ -35,7 +35,7 @@ const Contact = () => {
   };
 
   return (
-    <div className='contact_container'>
+    <div className='contact_container' style={{fontSize:'1rem'}}>
       <Wave />
       <div className='contactbox' >
         <h2 id="contact" className='heading'>// Contact Me</h2>
