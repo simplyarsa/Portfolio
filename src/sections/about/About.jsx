@@ -50,7 +50,7 @@ const About = () => {
         <div className='about-text'>
           <p>DEVELOPER</p>
           <p>CODER</p>
-          <p>SOLVER</p>
+          <p>INNOVATOR</p>
           {/* &ensp; random text <br /> */}
         </div>
         <div className='socials'>

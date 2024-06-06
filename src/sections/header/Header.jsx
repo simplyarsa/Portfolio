@@ -33,6 +33,11 @@ const Header = () => {
     <a href="#skills">// skills</a>
     <a href="#projects">// projects</a>
     <a href="#contact">// contact</a>
+    <a href="https://drive.google.com/file/d/1S1aA3uBKtUbIEKU9qcB5tG55RoDspQsP/view?usp=drive_link" 
+    target="_blank" rel="noreferrer"
+    >// resume</a>
+    
+
     </div>
     </div>
   )
